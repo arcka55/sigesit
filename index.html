@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigesit</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-info-subtle shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="assets/img/logo-brand.png"
+            alt="Logo"
+            width="50"
+            class="d-inline-block align-text-top"
+          />
+          Sigesit
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#program">Program</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide carousel-fade shadow-sm"
+      data-bs-ride="carousel"
+      data-bs-pause="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#CFF4FC"
+        fill-opacity="1"
+        d="M0,160L60,160C120,160,240,160,360,144C480,128,600,96,720,101.3C840,107,960,149,1080,144C1200,139,1320,85,1380,58.7L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- end of carousel -->
+
+    <!-- about us -->
+    <section id="about" data-aos="fade-up">
+      <div class="container">
+        <h2 class="text-center">About Us</h2>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-4">
+            <img
+              src="assets/img/logo-brand.png"
+              width="200px"
+              alt="Logo Brand"
+            />
+          </div>
+          <div class="col-md-4 d-flex align-items-center">
+            <p>
+              Perusahaan ini bergerak di bidang Teknologi Informasi (IT), telah
+              memiliki ribuan alumni yang tersebar di seluruh penjuru negeri.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#CFF4FC"
+        fill-opacity="1"
+        d="M0,320L48,298.7C96,277,192,235,288,197.3C384,160,480,128,576,128C672,128,768,160,864,186.7C960,213,1056,235,1152,229.3C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- end of about us -->
+
+    <!-- program -->
+    <section id="program">
+      <div class="container" data-aos="fade-up">
+        <h2 class="text-center mb-5">Program</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img
+                src="assets/img/program1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Microsoft Word</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProgram1"
+                  >Detail</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img
+                src="assets/img/program2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Microsoft Excel</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProgram2"
+                  >Detail</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img
+                src="assets/img/program3.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Microsoft Powerpoint</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProgram3"
+                  >Detail</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card h-100">
+              <img
+                src="assets/img/program4.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Data Analyst</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProgram4"
+                  >Detail</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#CFF4FC"
+        fill-opacity="1"
+        d="M0,320L40,282.7C80,245,160,171,240,128C320,85,400,75,480,85.3C560,96,640,128,720,128C800,128,880,96,960,117.3C1040,139,1120,213,1200,218.7C1280,224,1360,160,1400,128L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- end of program -->
+
+    <!-- contact -->
+    <section id="contact" data-aos="fade-up">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#CFF4FC"
+        fill-opacity="1"
+        d="M0,32L26.7,37.3C53.3,43,107,53,160,53.3C213.3,53,267,43,320,53.3C373.3,64,427,96,480,90.7C533.3,85,587,43,640,37.3C693.3,32,747,64,800,74.7C853.3,85,907,75,960,69.3C1013.3,64,1067,64,1120,74.7C1173.3,85,1227,107,1280,128C1333.3,149,1387,171,1413,181.3L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- end of contact -->
+
+    <footer class="footer">
+      <p class="text-center fs-5 display-4">Sigesit - Copyright &copy; 2024</p>
+    </footer>
+
+    <!-- modal program1 -->
+    <div
+      class="modal fade"
+      id="modalProgram1"
+      tabindex="-1"
+      aria-labelledby="modalProgram1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalProgram1Label">
+              Microsoft Word
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="assets/img/program1.jpg"
+              alt="Program1"
+              class="w-100 img-thumbnail"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              voluptatibus incidunt dolorum totam ducimus tempora fuga doloribus
+              placeat soluta tempore!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of modal program1 -->
+
+    <!-- modal program2 -->
+    <div
+      class="modal fade"
+      id="modalProgram2"
+      tabindex="-1"
+      aria-labelledby="modalProgram2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalProgram2Label">
+              Microsoft Excel
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="assets/img/program2.jpg"
+              alt="Program1"
+              class="w-100 img-thumbnail"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              voluptatibus incidunt dolorum totam ducimus tempora fuga doloribus
+              placeat soluta tempore!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of modal program2 -->
+
+    <!-- modal program3 -->
+    <div
+      class="modal fade"
+      id="modalProgram3"
+      tabindex="-1"
+      aria-labelledby="modalProgram3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalProgram3Label">
+              Microsoft Power Point
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="assets/img/program3.jpg"
+              alt="Program1"
+              class="w-100 img-thumbnail"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              voluptatibus incidunt dolorum totam ducimus tempora fuga doloribus
+              placeat soluta tempore!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of modal program3 -->
+
+    <!-- modal program4 -->
+    <div
+      class="modal fade"
+      id="modalProgram4"
+      tabindex="-1"
+      aria-labelledby="modalProgram4Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalProgram4Label">
+              Data Analyst
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="assets/img/program4.jpg"
+              alt="Program1"
+              class="w-100 img-thumbnail"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+              voluptatibus incidunt dolorum totam ducimus tempora fuga doloribus
+              placeat soluta tempore!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of modal program4 -->
+
+    <!-- bootstrap js -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
